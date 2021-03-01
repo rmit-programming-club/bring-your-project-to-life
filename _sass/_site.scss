@@ -1,0 +1,252 @@
+@media (prefers-color-scheme: dark) {
+  /* Overrides for Dark Mode. */
+  body {
+    color: white !important;
+    background: #212425 !important;
+  }
+  #dm {
+    display: none;
+  }
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+    sans-serif;
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.site-header {
+  padding-top: 2rem;
+  text-align: center;
+  .header {
+    font-size: 6rem;
+    color: #1db41d;
+    padding-left: 5rem;
+  }
+}
+
+h2.emp {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0.1rem 0.1rem 0.1rem #00000070;
+}
+
+#registerbox{
+  padding: 3rem; 
+  text-align: center;
+}
+
+#partners {
+  padding-top: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+  .partner {
+    display: inline-block;
+    img {
+      width: 10rem;
+    }
+  }
+}
+
+#agenda {
+  padding-top: 1rem;
+  transform: skew(0, 1deg);
+  text-align: center;
+  box-shadow: 0rem 0rem 2rem #00000070;
+  h2 {
+    transform: skew(0, -1deg);
+  }
+  .day {
+    padding: 2rem;
+    transform: skew(0, -1deg);
+    background-color: white;
+    box-shadow: 0.1rem 0.1rem 0.1rem #00000070;
+    display: inline-block;
+    margin: 2rem;
+  }
+  background-color: #FF902B;
+}
+
+section {
+ padding-left: 5rem;
+ padding-right: 5rem;
+}
+
+a.signuplink {
+  background-color: #1db41d;
+  color: #FF902B;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  font-weight: 3rem;
+  text-shadow: 0.1rem 0.1rem 0.1rem #00000070;
+  color: white !important;
+}
+
+#presenters {
+  transform: skew(0, -1deg);
+  background-color: #e83131;
+  padding-bottom: 6rem;
+  padding-top: 1rem;
+  text-align: center;
+  margin-bottom: -3rem;
+  box-shadow: 0rem -0.5rem 0.5rem #00000070;
+  h2 {
+    transform: skew(0, 1deg);
+  }
+  .presenter {
+    margin: 2rem;
+    transform: skew(0, 1deg);
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0.1rem 0.1rem 0.1rem #00000070;
+    display: inline-block;
+    padding: 2rem;
+  }
+}
+
+#faq {
+  transform: skew(0, 1deg);
+  text-align: center;
+  box-shadow: 0rem -0.5rem 0.5rem #00000070;
+  padding-top: 1rem;
+  h2 {
+    transform: skew(0, -1deg);
+  }
+  .question {
+    padding: 2rem;
+    transform: skew(0, -1deg);
+    background-color: white;
+    box-shadow: 0.1rem 0.1rem 0.1rem #00000070;
+    display: inline-block;
+    margin: 2rem;
+  }
+  background-color: #704ca7;
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#content {
+  padding: 10px;
+  padding-bottom: 60px; /* Height of the footer */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+}
+
+.highlight {
+  background-color: #353a3f !important;
+  color: white !important;
+  padding: 5px 20px;
+  border-radius: 3px;
+  border: 1px;
+}
+
+// Link Color
+a {
+  color: #c84443 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #c84443 !important;
+  text-decoration: underline !important;
+}
+
+// Icon Bar
+.iconbar {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center !important;
+  margin: 0;
+}
+
+.iconbar a {
+  font-size: 20px;
+  margin: 0;
+  color: white !important;
+}
+
+.iconbar .fa {
+  padding: 5px;
+}
+
+// Sign-Up link
+.membersignup {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 10px;
+}
+
+// Alert Banner
+.alert {
+  margin-bottom: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: #6b944a !important;
+  color: white !important;
+  text-align: center !important;
+  padding-left: 56px !important;
+}
+
+// Site logo/banner
+.logo {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Nav Bar
+.nav-link {
+  color: white !important;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: none !important;
+  color: #c84443 !important;
+}
+
+// Needed For mobile layout
+.bodycontent {
+  margin-right: 0 !important;
+}
+
+// Footer
+.sitefooter {
+  border-bottom: #2b2b2b 1px solid !important;
+  text-align: center !important;
+}
+
+.footer-logo {
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
