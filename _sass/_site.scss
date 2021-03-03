@@ -1,11 +1,17 @@
 @media (prefers-color-scheme: dark) {
-    /* Overrides for Dark Mode. */
     body {
-        color: white !important;
-        background: #212425 !important;
+        color: #F5F5F5 !important;
+        background: #212425 !important
     }
-    #dm {
-        display: none;
+    .site-header .header,
+    #partners h2 {
+        color: #F5F5F5 !important;
+    }
+    #agenda .day,
+    #presenters .presenter,
+    #faq .question {
+        color: #4f4f4f !important;
+        background-color: #F5F5F5 !important;
     }
 }
 
